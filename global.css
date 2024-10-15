@@ -14,7 +14,7 @@
     --text-color-secondary: #6C6C6C;
 
     --text: 16px/150% var(--font-family);
-    --font-family: "Poppins", sans-serif ;
+    --font-family: "poppins", sans-serif;
     --text-lg: bold 32px/125% var(--font-family);
     --text-md: 14px/172% var(--font-family);
     --text-sm: 12px/170% var(var(--font-family));
@@ -22,9 +22,12 @@
 }
 
 body {
-    font: var();
+    font: var(--text);
     color: var(--text-color-secondary);
     background-color: var(--backgound-colro);
+
+
+    
 }
 
 nav a {
